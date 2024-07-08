@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC Technologies System Verification</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ABC Technologies</h1>
+        <h2>System Verification</h2>
+        <form>
+            <label for="ram">RAM:</label>
+            <select id="ram">
+                <option value="4">4GB</option>
+                <option value="8">8GB</option>
+                <option value="16">16GB</option>
+            </select>
+            <label for="cpu">CPU:</label>
+            <select id="cpu">
+                <option value="2">2 Cores</option>
+                <option value="4">4 Cores</option>
+                <option value="8">8 Cores</option>
+                <option value="12">12 Cores</option>
+            </select>
+            <button type="button" onclick="EvaluateSysInfo()">Submit</button>
+        </form>
+    </div>
+    <script src="details.js"></script>
+</body>
+</html>
